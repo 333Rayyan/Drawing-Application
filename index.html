@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Drawing Application</title>
+
+	<script src="assets/js/lib/p5.min.js"></script>
+
+	<script src="assets/js/sketch.js"></script>
+
+	<script src="assets/js/classes/toolbox.js"></script>
+	<script src="assets/js/classes/helperFunctions.js"></script>
+
+	<script src="assets/js/classes/tools/backgroundFillTool.js"></script>
+	<script src="assets/js/classes/tools/blurTool.js"></script>
+	<script src="assets/js/classes/tools/eraserTool.js"></script>
+	<script src="assets/js/classes/tools/freehandTool.js"></script>
+	<script src="assets/js/classes/tools/lineTool.js"></script>
+	<script src="assets/js/classes/tools/mirrorTool.js"></script>
+	<script src="assets/js/classes/tools/shapesTool.js"></script>
+	<script src="assets/js/classes/tools/sprayCanTool.js"></script>
+	<script src="assets/js/classes/tools/starTrail.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+	<header id="header">
+		<div class="header-text">
+			<h1>Drawing Application</h1>
+		</div>
+		<nav id="primary-nav">
+			<button class="nav-item" id="saveCanvas">Save Canvas</button>
+			<div class="divider nav-divider"></div>
+			<button class="nav-item" id="placeImage">Place Image</button>
+			<div class="divider nav-divider"></div>
+			<button class="nav-item" id="clearCanvas">Clear Canvas</button>
+			<div class="divider nav-divider"></div>
+			<button class="nav-item" id="resetCanvas">RESET Canvas</button>
+		</nav>
+	</header>
+	<div id="secondary-bar">
+		<div id="secondary-options">
+			<button class="nav-item" id="undo" style="margin-left: 10px !important;">Undo</button>
+			<div class="divider"></div>
+			<button class="nav-item" id="redo">Redo</button>
+		</div>
+		<div id="tool-options"></div>
+		<div id="colour-picker"></div>
+	</div>
+	<div id="tool-bar">
+		<div class="tool-group">
+		</div>
+	</div>
+	<div id="content"></div>
+</body>
+
+</html>

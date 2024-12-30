@@ -14,7 +14,7 @@ A simple and intuitive drawing application built using HTML, CSS, and JavaScript
 
 1. Clone the repository:
    ```bash
-    https://github.com/333Rayyan/Drawing-Application.git
+    git clone https://github.com/333Rayyan/Drawing-Application.git
    ```
 2. Open `index.html` in any modern web browser to get started.
 
